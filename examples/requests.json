@@ -1,0 +1,62 @@
+[
+  {
+    "description": "Create a user",
+    "method": "POST",
+    "url": "http://localhost:5000/api/users",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Ada Lovelace",
+      "email": "ada@example.com"
+    }
+  },
+  {
+    "description": "List users",
+    "method": "GET",
+    "url": "http://localhost:5000/api/users"
+  },
+  {
+    "description": "Get a user by id",
+    "method": "GET",
+    "url": "http://localhost:5000/api/users/<user_id>"
+  },
+  {
+    "description": "Delete a user",
+    "method": "DELETE",
+    "url": "http://localhost:5000/api/users/<user_id>"
+  },
+  {
+    "description": "Create a product",
+    "method": "POST",
+    "url": "http://localhost:5000/api/products",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Mechanical Keyboard",
+      "price": 89.99,
+      "in_stock": true
+    }
+  },
+  {
+    "description": "List products",
+    "method": "GET",
+    "url": "http://localhost:5000/api/products"
+  },
+  {
+    "description": "Get a product by id",
+    "method": "GET",
+    "url": "http://localhost:5000/api/products/<product_id>"
+  },
+  {
+    "description": "Delete a product",
+    "method": "DELETE",
+    "url": "http://localhost:5000/api/products/<product_id>"
+  },
+  {
+    "description": "Health check",
+    "method": "GET",
+    "url": "http://localhost:5000/api/health"
+  }
+]
